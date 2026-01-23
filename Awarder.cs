@@ -1,6 +1,6 @@
 namespace knightmoves;
 
-public class AwardSystem
+public class Awarder
 {
     public string CalculateAward(int points)
     {
@@ -17,6 +17,7 @@ public class AwardSystem
         }
     }
 }
+
 
 
 
