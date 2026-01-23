@@ -7,17 +7,17 @@ public class AwardSystem
         if (points > 99)
         {
             return "First Place";
-        }
-        
-        if (points > 49 && points < 100)
-        {
+            
+        } else if (points > 49 && points < 100){
+            
             return "Second Place";
+            
+        } else {        
+            return "Participation Award";
         }
-
-        
-        return "Participation Award";
     }
 }
+
 
 
 
